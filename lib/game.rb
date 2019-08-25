@@ -22,7 +22,6 @@ class Hangman
     
     def guess_ltr(secret_arr)
         puts "Guess the word using one letter at a time! if you would like to save, enter '$'."
-        # put in save/load later, guessed is the input. if guess is $ or # save/load, elsif check if input matches a letter in secretwrd, then update visible with the character in the correct location(s)
         input = gets.chomp.downcase
         checker = false
 
